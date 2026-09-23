@@ -10,8 +10,5 @@ __pycache__/
 .venv/
 venv/
 
-# Generated report output (see ams3_report_config.json: output_dir)
-reports/
-
 # Generated knowledge graph output (graphify)
 graphify-out/

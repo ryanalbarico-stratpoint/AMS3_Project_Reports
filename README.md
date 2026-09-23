@@ -73,5 +73,6 @@ building a report needs no network access besides `gh`.
 
 ## Output
 
-Reports are written to `output_dir` (default `reports/`), which is
-git-ignored — regenerate them rather than committing them.
+Reports are written to `output_dir` (default `reports/`), which is tracked
+in git so the generated HTML is accessible to anyone with the repo —
+commit the regenerated files after each run.
