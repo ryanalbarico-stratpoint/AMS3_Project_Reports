@@ -1,0 +1,80 @@
+{
+  "branch": "develop",
+  "start_date": "2026-08-10",
+  "tasks_dir": "docs/dev-tasks",
+  "output_dir": "reports",
+  "modules": {
+    "core": "core",
+    "security": "security",
+    "inventory": "inventory",
+    "exempt": "exempt",
+    "audit": "audit"
+  },
+  "people": {
+    "Bryan Matias": {
+      "emails": ["bmmatias@stratpoint.com", "bryan.matias@STRATPOIT-SD-Bryan.local"],
+      "git_names": ["bryan.matias", "mattymatthews"],
+      "github": ["mattymatthews"]
+    },
+    "Dardee Jay Calura": {
+      "emails": ["dardeejay.calura@stratpoint.com"],
+      "git_names": ["dardzzz"],
+      "github": ["dardeejay"]
+    },
+    "Jan Rudolf Basoc": {
+      "emails": ["janrudolfbasoc@STRATPOINT-SD-Jan.local", "73691578+jbasoc-stratpoint@users.noreply.github.com"],
+      "git_names": ["jbasoc-stratpoint"],
+      "github": ["jbasoc-stratpoint"]
+    },
+    "Jerwin Ordillano": {
+      "emails": ["jerwin.ordillano@stratpoint.com"],
+      "git_names": [],
+      "github": ["jaweordillano"]
+    },
+    "Karl Manuel Barce": {
+      "emails": ["karlmanuelbarce@STRATPOINT-SD-Manuel.local", "karlmanuel.barce@stratpoint.com"],
+      "git_names": ["karlmanuelbarce"],
+      "github": ["karlmanuelbarce"]
+    },
+    "Khirru Clyde Gavilo": {
+      "emails": ["khirruclyde.gavilo@stratpoint.com", "khirruclydegavilo@STRATPOINT-SD-Khirru.local"],
+      "git_names": ["k-hirru"],
+      "github": ["k-hirru"]
+    },
+    "Kianna Alexandra Gragg": {
+      "emails": ["kiannaalexandra.gragg@stratpoint.com"],
+      "git_names": ["kiannaalexandra-gragg"],
+      "github": ["kiannaalexandra-gragg"]
+    },
+    "Maureen Reyes": {
+      "emails": ["mreyes@stratpoint.com", "92297439+maureenreyes@users.noreply.github.com"],
+      "git_names": ["maureenreyes"],
+      "github": ["maureenreyes"]
+    },
+    "Pao Rogelio": {
+      "emails": ["albertpaolo.rogelio@stratpoint.com", "albert.rogelio@mptc.com.ph"],
+      "git_names": ["strat-paorog", "paorogelio"],
+      "github": ["strat-paorog"]
+    },
+    "Ronaldo Dela Cruz": {
+      "emails": ["ronaldo.delacruz@stratpoint.com"],
+      "git_names": ["rcdelacruz"],
+      "github": ["stratpoint-engineering"]
+    },
+    "Steven Palabyab": {
+      "emails": ["stevencharlespalabyab@SGO-1155-1944.local", "stevencharles.palabyab@stratpoint.com"],
+      "git_names": ["Steven Charles Palabyab", "steven-palabyab"],
+      "github": ["steven-palabyab"]
+    }
+  },
+  "exclude": {
+    "label": "Merge Sim & other excluded identities",
+    "reason": "distinct git identities not attributable to a named engineer (session/merge bot, minor one-off accounts)",
+    "emails": ["edelacruz@stratpoint.com", "emerygarcia@ip-192-168-53-90.ap-southeast-2.compute.internal"],
+    "git_names": [
+      "Merge Sim",
+      "Emery dela Cruz"
+    ]
+  },
+  "publish_command": ""
+}
